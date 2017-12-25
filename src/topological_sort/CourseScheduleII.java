@@ -22,8 +22,8 @@ public class CourseScheduleII {
         		isRemoved[i] = false;
         }
         for (int i = 0; i < pre.length; i++) {
-        		adjMat[pre[i][0]][pre[i][1]] = 1;
-        		inDegree[pre[i][1]]++;
+        		adjMat[pre[i][1]][pre[i][0]] = 1;
+        		inDegree[pre[i][0]]++;
         }
         
         // remove node/edges one by one
@@ -42,7 +42,7 @@ public class CourseScheduleII {
         		return resultArr;
         }
         
-        return new int[N];
+        return new int[0];
     }
 	
 	private void removeNode(int n) { // the node n has 0 inDegree, 
@@ -59,11 +59,11 @@ public class CourseScheduleII {
 	private int pickZeroInDegree() { // pick a node with zero degree. return -1 if none;
 		for (int i = 0; i < inDegree.length; i++) { 
 			if (inDegree[i] == 0 && !isRemoved[i]) {
-				System.out.println("Node i = " + i + " is of 0 indegree.");
+				// System.out.println("Node i = " + i + " is of 0 indegree.");
 				return i;
 			}
 		}
-		System.out.println("no 0 indegree nodes!");
+		// System.out.println("no 0 indegree nodes!");
 		return -1;
 	}
 	
@@ -76,6 +76,6 @@ public class CourseScheduleII {
 		prerequisites[0] = new int[] {0, 1};
 		prerequisites[1] = new int[] {1, 2};
 		//prerequisites[2] = new int[] {2, 0};
-		System.out.print(cs.findOrder(numCourses, prerequisites));
+		// System.out.print(cs.findOrder(numCourses, prerequisites));
 	}
 }
