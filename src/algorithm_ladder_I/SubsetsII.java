@@ -29,8 +29,8 @@ public class SubsetsII {
     		res.add(new ArrayList<Integer>(list));
     		
     		for (int i = d; i < nums.length; i++) { // enumerate all possible values at dimension d
-    			if (i-1 >= d) {
-    				if (nums[i] == nums[i-1]) continue;
+    			if (i-1 >= d) {	// the previous one in nums[] may also be enumerated
+    				if (nums[i] == nums[i-1]) continue; // current nums[i] will not be repeatedly enumerated.
     			}
     			list.add(nums[i]);
     			backtrack(nums, i+1, list, res);
@@ -45,7 +45,7 @@ public class SubsetsII {
 			System.out.print(i + " ");
 		}
 		System.out.print("] \n");
-}
+    }
 
     public static void main(String[] args) {
 		int[] S = new int[] {1,2,2};
@@ -54,5 +54,5 @@ public class SubsetsII {
 		for (List<Integer> list : result) {
 			ss.printList(list);
 		}
-}	
+    }	
 }
