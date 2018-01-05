@@ -49,9 +49,7 @@ public class NumberOfIslandsII {
     			return pointId;
     		else {
     			id[pointId] = findFather(id[pointId]);
-    			return id[pointId];
+    			return id[pointId]; // here is path compression;
     		}
     }
-    
-    
 }
