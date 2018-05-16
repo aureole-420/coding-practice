@@ -33,7 +33,7 @@ public class ClosestNumber {
 	
 	public static void main(String[] args) {
 		int[] A = new int[] {1,2,3,7};
-		int target = -1;
+		int target = 4;
 		ClosestNumber cn = new ClosestNumber();
 	    System.out.println(cn.findClosestNumber(A, target)); // expected to be 3
 	}

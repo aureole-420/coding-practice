@@ -1,11 +1,9 @@
 package algorithm_ladder_I;
 
-
-// complexity O(m*n)
-public class StrStr {
+public class Redo_StrStr {
 	
 	public int strStr(String source, String target) {
-        // corner case;
+		// corner case:
 		if (source == null || target == null) {
 			return -1;
 		}
@@ -15,29 +13,35 @@ public class StrStr {
 			return -1;
 		}
 		
-		// two layers of iteration.
 		int i, j;
+		// two layer iteration:
 		for (i = 0; i <= sl-tl; i++) {
 			for (j = 0; j < tl; j++) {
-				char schar = source.charAt(i + j);
+				char schar = source.charAt(i+j);
 				char tchar = target.charAt(j);
-				if (schar != tchar) break;
-				// else continue;
+				if (schar != tchar) {
+					break;
+				}
 			}
-			if (j == tl) 
+			// found one substring
+			if (j == tl) {
 				return i;
+			}
 		}
 		
+		//never found one.
 		return -1;
-    }
+	}
+	
 	
 	public static void main(String[] args) {
+		String source = "abcdefg";
+		String target = "def";
 		
+		Redo_StrStr ss = new Redo_StrStr();
+	
+		int result = ss.strStr(source, target);
+		System.out.println(result); // expect to be 3
 		
-		String source = "abcdabcdefg";
-		String target = "bcd";
-		
-		StrStr ss = new StrStr();
-		System.out.println(ss.strStr(source, target)); // expected to be 1
 	}
 }
