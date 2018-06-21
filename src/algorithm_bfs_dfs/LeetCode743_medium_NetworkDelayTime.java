@@ -3,6 +3,7 @@ import java.util.*;
 
 // 有向图，dfs起点k，同时搜集最大的path sum
 // https://leetcode.com/problems/network-delay-time/solution/
+// 做后感想： dijkstra's algorithm 这个实现真是很tricky，老爷爷的书上用的是
 public class LeetCode743_medium_NetworkDelayTime {
 	
 	// N nodes, starting from node K.
