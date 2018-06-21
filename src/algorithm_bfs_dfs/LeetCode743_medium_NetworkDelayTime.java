@@ -3,7 +3,11 @@ import java.util.*;
 
 // 有向图，dfs起点k，同时搜集最大的path sum
 // https://leetcode.com/problems/network-delay-time/solution/
-// 做后感想： dijkstra's algorithm 这个实现真是很tricky，老爷爷的书上用的是
+// 做后感想： dijkstra's algorithm 这个实现真是很tricky，老爷爷的书上用的是index min queue
+// 实际上因为dijkstra是每次挑distance最小的点出来加入shortest path tree, 采用<distance, node index>的方法maintain一个pq，
+// 效率可能稍微低一点，但免去了删除节点的麻烦。
+// 
+// 回过头一想： dijkstra algo 就是maintain一个distance pq，然后不断dequeue来增加spt
 public class LeetCode743_medium_NetworkDelayTime {
 	
 	// N nodes, starting from node K.
@@ -15,7 +19,7 @@ public class LeetCode743_medium_NetworkDelayTime {
     			graph.get(edge[0]).add(new int[] {edge[1], edge[2]});
     		}
     		
-    		// each elem: [distance, ]
+    		// each elem: [distance, node index]
     		PriorityQueue<int[]> pq = new PriorityQueue<>(new Comparator<int[]>() {
 				@Override
 				public int compare(int[] o1, int[] o2) {
@@ -32,8 +36,8 @@ public class LeetCode743_medium_NetworkDelayTime {
     			int d = info[0], node = info[1];
     			if (dist.containsKey(node)) continue;
     			
-    			dist.put(node, d);
-    			if (graph.containsKey(node)) {
+    			dist.put(node, d); // 只有出队列时才把dist加进去
+    			if (graph.containsKey(node)) { // 注意，有可能点不在构建的graph里面
     				for (int[] edge : graph.get(node)) {
     					int neighbour = edge[0], weight = edge[1];
     					if (!dist.containsKey(neighbour)) {
