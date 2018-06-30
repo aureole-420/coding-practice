@@ -1,6 +1,6 @@
 package algorithm_tree;
 
-public class LeetCode270_ClosestBSTValue {
+public class LeetCode270_medium_ClosestBSTValue {
 	
     public int closestValue(TreeNode root, double target) {
         if (Math.abs(target - root.val) < 1e-6) {

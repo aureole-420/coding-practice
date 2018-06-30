@@ -13,7 +13,7 @@ import java.util.*;
 // 看了排名第二的答案，超棒！
 // 这题跟173很像，173是给出bst的iterator （O(logn) space, worst case O(logn) time）
 // 这题是要构造某个given target的successor / predecessor iterator
-public class LeetCode272_ClosestBSTValue_II {
+public class LeetCode272_hard_ClosestBSTValue_II {
     public List<Integer> closestKValues(TreeNode root, double target, int k) {
     		List<Integer> res = new ArrayList<>();
     		
