@@ -5,6 +5,7 @@ package algorithm_twoPointers;
 
 
 // 看了答案，这题其实利用了“第一次相遇”的情形，可以具体把第一次相遇的位置用相对的表示出来
+// O(n) solution -- slow pointer 走了less than n步就相遇了
 public class LeetCode142_medium_LinkedListCycle_II {
     public ListNode detectCycle(ListNode head) {
         ListNode intersection = hasCycle(head);
