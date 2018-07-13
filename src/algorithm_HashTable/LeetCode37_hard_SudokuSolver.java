@@ -25,7 +25,7 @@ import java.util.*;
 //...2759..
 
 
-// 做中： 看了答案：用的back tracking：
+// 做中： 看了答案：用的back tracking：m个空位，用
 public class LeetCode37_hard_SudokuSolver {
 	
     public void solveSudoku(char[][] board) {
