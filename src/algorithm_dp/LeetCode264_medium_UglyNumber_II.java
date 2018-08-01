@@ -6,6 +6,14 @@ package algorithm_dp;
 // ugly number就是2，3，5的倍数，maintain三个序列，然后做merge sort
 
 // 做后：这个mergesort比较tricky，感觉可以学一下。
+//The ugly-number sequence is 1, 2, 3, 4, 5, 6, 8, 9, 10, 12, 15, …
+//because every number can only be divided by 2, 3, 5, one way to look at the sequence is to split the sequence to three groups as below:
+//
+//(1) 1×2, 2×2, 3×2, 4×2, 5×2, …
+//(2) 1×3, 2×3, 3×3, 4×3, 5×3, …
+//(3) 1×5, 2×5, 3×5, 4×5, 5×5, …
+
+// 
 public class LeetCode264_medium_UglyNumber_II {
 	
     public int nthUglyNumber(int n) {
