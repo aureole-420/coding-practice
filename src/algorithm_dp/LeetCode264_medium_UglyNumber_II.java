@@ -13,7 +13,10 @@ package algorithm_dp;
 //(2) 1×3, 2×3, 3×3, 4×3, 5×3, …
 //(3) 1×5, 2×5, 3×5, 4×5, 5×5, …
 
-// 
+// ugly numbers: dp[]
+// seq2 = 2* dp[]
+// seq3 = 2* dp[]
+// seq5 = 5*dp[]
 public class LeetCode264_medium_UglyNumber_II {
 	
     public int nthUglyNumber(int n) {
