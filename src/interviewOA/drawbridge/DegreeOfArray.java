@@ -1,6 +1,6 @@
 package interviewOA.drawbridge;
 
-import static org.junit.Assert.assertEquals;
+//import static org.junit.Assert.assertEquals;
 import java.util.*;
 
 public class DegreeOfArray {
@@ -45,6 +45,6 @@ public class DegreeOfArray {
     		int[] nums = new int[] {1,3,2,2,3,1};
     		int ans = d.findShortestSubArray(nums);
     		System.out.println(ans); // should be 6
-    		assertEquals(ans, 2);
+//    		assertEquals(ans, 2);
     }
 }

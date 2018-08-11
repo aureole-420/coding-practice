@@ -1,6 +1,6 @@
 package topological_sort;
 
-import static org.junit.Assert.assertEquals;
+//import static org.junit.Assert.assertEquals;
 
 import java.util.ArrayDeque;
 import java.util.Deque;
@@ -96,6 +96,6 @@ public class AlienDictionary {
     public static void main(String[] args) {
     		String[] words = new String[] {"wrt", "wrf", "er", "ett", "rftt"};
     		AlienDictionary ad = new AlienDictionary();                       
-    		assertEquals("wertf", ad.alienOrder(words));
+//    		assertEquals("wertf", ad.alienOrder(words));
     }
 }

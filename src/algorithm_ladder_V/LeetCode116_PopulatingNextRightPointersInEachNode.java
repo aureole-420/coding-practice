@@ -1,6 +1,6 @@
 package algorithm_ladder_V;
 
-import static org.junit.Assert.assertNotNull;
+//import static org.junit.Assert.assertNotNull;
 
 // 这题蛮奇怪，要求constant extra space
 // 一种做法是用bfs，把同一层的都相连 ， left 2 right， 所以必然是顺序正确 --- 问题是会maintain一个queue
