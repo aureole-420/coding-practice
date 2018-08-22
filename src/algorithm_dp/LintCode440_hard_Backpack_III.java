@@ -11,6 +11,7 @@ public class LintCode440_hard_Backpack_III {
 
     public int backPackIII(int[] A, int[] V, int m) {
         // write your code here
+        return 0;
     }
 
     public static void main(String[] args) {
