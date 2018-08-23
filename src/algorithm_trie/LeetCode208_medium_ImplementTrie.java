@@ -1,6 +1,6 @@
 package algorithm_trie;
 
-public class LeetCode208_ImplementTrie {
+public class LeetCode208_medium_ImplementTrie {
 
     private class TrieNode {
         private final int R = 26;

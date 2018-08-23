@@ -1,7 +1,7 @@
 package algorithm_trie;
 
 // backtracking 能作出来但超时了。
-public class LeetCode211_AddAndSearchWord {
+public class LeetCode211_medium_AddAndSearchWord {
 
     private class TrieNode {
         private final int R = 26;
@@ -84,7 +84,7 @@ public class LeetCode211_AddAndSearchWord {
     }
 
     public static void main(String[] args) {
-        LeetCode211_AddAndSearchWord aas = new LeetCode211_AddAndSearchWord();
+        LeetCode211_medium_AddAndSearchWord aas = new LeetCode211_medium_AddAndSearchWord();
         aas.WordDictionary();
         aas.addWord("bad");
         aas.addWord("mad");
