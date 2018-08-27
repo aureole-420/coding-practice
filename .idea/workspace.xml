@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cf80e199-f6ad-4e68-8c09-5da29c406d23" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/algorithm_trie/LeetCode336_hard_PalindromePairs.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/algorithm_trie/LeetCode677_medium_MapSumPairs.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/algorithm_trie/LeetCode642_hard_DesignSearchAutocompleteSystem.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -22,31 +21,6 @@
             <state relative-caret-position="195">
               <caret line="13" column="17" lean-forward="false" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LeetCode208_medium_ImplementTrie.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/algorithm_trie/LeetCode208_medium_ImplementTrie.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="32" column="5" lean-forward="false" selection-start-line="4" selection-start-column="4" selection-end-line="32" selection-end-column="5" />
-              <folding>
-                <element signature="e#231#232#0" expanded="true" />
-                <element signature="e#277#278#0" expanded="true" />
-                <element signature="e#316#317#0" expanded="true" />
-                <element signature="e#355#356#0" expanded="true" />
-                <element signature="e#392#393#0" expanded="true" />
-                <element signature="e#431#432#0" expanded="true" />
-                <element signature="e#477#478#0" expanded="true" />
-                <element signature="e#527#528#0" expanded="true" />
-                <element signature="e#566#567#0" expanded="true" />
-                <element signature="e#608#609#0" expanded="true" />
-                <element signature="e#658#659#0" expanded="true" />
-                <element signature="e#700#701#0" expanded="true" />
-                <element signature="e#827#828#0" expanded="true" />
-                <element signature="e#864#865#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -145,11 +119,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LeetCode336_hard_PalindromePairs.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="LeetCode336_hard_PalindromePairs.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/algorithm_trie/LeetCode336_hard_PalindromePairs.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="225">
               <caret line="15" column="3" lean-forward="false" selection-start-line="15" selection-start-column="3" selection-end-line="93" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LeetCode642_hard_DesignSearchAutocompleteSystem.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/algorithm_trie/LeetCode642_hard_DesignSearchAutocompleteSystem.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="9" column="56" lean-forward="false" selection-start-line="9" selection-start-column="56" selection-end-line="9" selection-end-column="56" />
               <folding />
             </state>
           </provider>
@@ -190,6 +174,7 @@
         <option value="$PROJECT_DIR$/src/algorithm_trie/LeetCode720_easy_LongestWordInDictionary.java" />
         <option value="$PROJECT_DIR$/src/algorithm_trie/LeetCode677_medium_MapSumPairs.java" />
         <option value="$PROJECT_DIR$/src/algorithm_trie/LeetCode336_hard_PalindromePairs.java" />
+        <option value="$PROJECT_DIR$/src/algorithm_trie/LeetCode642_hard_DesignSearchAutocompleteSystem.java" />
       </list>
     </option>
   </component>
@@ -199,7 +184,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="258" />
     <option name="y" value="254" />
     <option name="width" value="1392" />
@@ -223,6 +208,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -247,8 +234,6 @@
       </pane>
       <pane id="Scratches" />
       <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -482,14 +467,16 @@
       <workItem from="1534346115750" duration="25027000" />
       <workItem from="1535315848373" duration="5000" />
       <workItem from="1535315935275" duration="220000" />
+      <workItem from="1535409371513" duration="2238000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26653000" />
+    <option name="totallyTimeSpent" value="28891000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="258" y="254" width="1392" height="877" extended-state="0" />
+    <frame x="48" y="23" width="1392" height="877" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -503,7 +490,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32992327" sideWeight="0.49407408" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25925925" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26296297" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -541,6 +528,45 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/algorithm_trie/LeetCode692_medium_TopKFrequenceWords.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="48" lean-forward="false" selection-start-line="4" selection-start-column="48" selection-end-line="4" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algorithm_trie/LeetCode720_easy_LongestWordInDictionary.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="36" lean-forward="false" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
+          <folding>
+            <element signature="e#541#542#0" expanded="true" />
+            <element signature="e#591#592#0" expanded="true" />
+            <element signature="e#635#636#0" expanded="true" />
+            <element signature="e#675#676#0" expanded="true" />
+            <element signature="e#718#719#0" expanded="true" />
+            <element signature="e#760#761#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algorithm_trie/LeetCode677_medium_MapSumPairs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="795">
+          <caret line="53" column="0" lean-forward="false" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algorithm_trie/LeetCode336_hard_PalindromePairs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="3" lean-forward="false" selection-start-line="15" selection-start-column="3" selection-end-line="93" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/algorithm_dp/LintCode440_hard_Backpack_III.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -554,20 +580,20 @@
         <state relative-caret-position="300">
           <caret line="32" column="5" lean-forward="false" selection-start-line="4" selection-start-column="4" selection-end-line="32" selection-end-column="5" />
           <folding>
-            <element signature="e#231#232#0" expanded="true" />
-            <element signature="e#277#278#0" expanded="true" />
-            <element signature="e#316#317#0" expanded="true" />
-            <element signature="e#355#356#0" expanded="true" />
-            <element signature="e#392#393#0" expanded="true" />
-            <element signature="e#431#432#0" expanded="true" />
-            <element signature="e#477#478#0" expanded="true" />
-            <element signature="e#527#528#0" expanded="true" />
-            <element signature="e#566#567#0" expanded="true" />
-            <element signature="e#608#609#0" expanded="true" />
-            <element signature="e#658#659#0" expanded="true" />
-            <element signature="e#700#701#0" expanded="true" />
-            <element signature="e#827#828#0" expanded="true" />
-            <element signature="e#864#865#0" expanded="true" />
+            <element signature="e#231#232#0" expanded="false" />
+            <element signature="e#277#278#0" expanded="false" />
+            <element signature="e#316#317#0" expanded="false" />
+            <element signature="e#355#356#0" expanded="false" />
+            <element signature="e#392#393#0" expanded="false" />
+            <element signature="e#431#432#0" expanded="false" />
+            <element signature="e#477#478#0" expanded="false" />
+            <element signature="e#527#528#0" expanded="false" />
+            <element signature="e#566#567#0" expanded="false" />
+            <element signature="e#608#609#0" expanded="false" />
+            <element signature="e#658#659#0" expanded="false" />
+            <element signature="e#700#701#0" expanded="false" />
+            <element signature="e#827#828#0" expanded="false" />
+            <element signature="e#864#865#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -673,20 +699,20 @@
         <state relative-caret-position="300">
           <caret line="32" column="5" lean-forward="false" selection-start-line="4" selection-start-column="4" selection-end-line="32" selection-end-column="5" />
           <folding>
-            <element signature="e#231#232#0" expanded="true" />
-            <element signature="e#277#278#0" expanded="true" />
-            <element signature="e#316#317#0" expanded="true" />
-            <element signature="e#355#356#0" expanded="true" />
-            <element signature="e#392#393#0" expanded="true" />
-            <element signature="e#431#432#0" expanded="true" />
-            <element signature="e#477#478#0" expanded="true" />
-            <element signature="e#527#528#0" expanded="true" />
-            <element signature="e#566#567#0" expanded="true" />
-            <element signature="e#608#609#0" expanded="true" />
-            <element signature="e#658#659#0" expanded="true" />
-            <element signature="e#700#701#0" expanded="true" />
-            <element signature="e#827#828#0" expanded="true" />
-            <element signature="e#864#865#0" expanded="true" />
+            <element signature="e#231#232#0" expanded="false" />
+            <element signature="e#277#278#0" expanded="false" />
+            <element signature="e#316#317#0" expanded="false" />
+            <element signature="e#355#356#0" expanded="false" />
+            <element signature="e#392#393#0" expanded="false" />
+            <element signature="e#431#432#0" expanded="false" />
+            <element signature="e#477#478#0" expanded="false" />
+            <element signature="e#527#528#0" expanded="false" />
+            <element signature="e#566#567#0" expanded="false" />
+            <element signature="e#608#609#0" expanded="false" />
+            <element signature="e#658#659#0" expanded="false" />
+            <element signature="e#700#701#0" expanded="false" />
+            <element signature="e#827#828#0" expanded="false" />
+            <element signature="e#864#865#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -889,20 +915,20 @@
         <state relative-caret-position="300">
           <caret line="32" column="5" lean-forward="false" selection-start-line="4" selection-start-column="4" selection-end-line="32" selection-end-column="5" />
           <folding>
-            <element signature="e#231#232#0" expanded="true" />
-            <element signature="e#277#278#0" expanded="true" />
-            <element signature="e#316#317#0" expanded="true" />
-            <element signature="e#355#356#0" expanded="true" />
-            <element signature="e#392#393#0" expanded="true" />
-            <element signature="e#431#432#0" expanded="true" />
-            <element signature="e#477#478#0" expanded="true" />
-            <element signature="e#527#528#0" expanded="true" />
-            <element signature="e#566#567#0" expanded="true" />
-            <element signature="e#608#609#0" expanded="true" />
-            <element signature="e#658#659#0" expanded="true" />
-            <element signature="e#700#701#0" expanded="true" />
-            <element signature="e#827#828#0" expanded="true" />
-            <element signature="e#864#865#0" expanded="true" />
+            <element signature="e#231#232#0" expanded="false" />
+            <element signature="e#277#278#0" expanded="false" />
+            <element signature="e#316#317#0" expanded="false" />
+            <element signature="e#355#356#0" expanded="false" />
+            <element signature="e#392#393#0" expanded="false" />
+            <element signature="e#431#432#0" expanded="false" />
+            <element signature="e#477#478#0" expanded="false" />
+            <element signature="e#527#528#0" expanded="false" />
+            <element signature="e#566#567#0" expanded="false" />
+            <element signature="e#608#609#0" expanded="false" />
+            <element signature="e#658#659#0" expanded="false" />
+            <element signature="e#700#701#0" expanded="false" />
+            <element signature="e#827#828#0" expanded="false" />
+            <element signature="e#864#865#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1006,6 +1032,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="15" column="3" lean-forward="false" selection-start-line="15" selection-start-column="3" selection-end-line="93" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algorithm_trie/LeetCode642_hard_DesignSearchAutocompleteSystem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="9" column="56" lean-forward="false" selection-start-line="9" selection-start-column="56" selection-end-line="9" selection-end-column="56" />
           <folding />
         </state>
       </provider>
