@@ -1,0 +1,9 @@
+[base_server]
+ram = 16G
+disk = 15G
+
+[review_console:admin_console]
+
+[admin_console:base_server]
+ram = 32G
+owner = root

@@ -59,6 +59,8 @@ public class LeetCode227_medium_BasicCalculator_II {
         LeetCode227_medium_BasicCalculator_II bc = new LeetCode227_medium_BasicCalculator_II();
         System.out.println(bc.calculate("3+5/2-2")); // should be 3
         System.out.println(bc.calculate("1-1+1")); // should be 1
+
+        String[] arr = "afef fefe fef ".split("\\(");
     }
 
 }
