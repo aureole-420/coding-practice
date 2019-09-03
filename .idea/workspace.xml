@@ -2,14 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cf80e199-f6ad-4e68-8c09-5da29c406d23" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/fall_2019/jiuzhang_algorithm/chap8_stack_queue_hash_heap/Lint130_heapify.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/fall_2019/jiuzhang_algorithm/chap8_stack_queue_hash_heap/Lint40_ImplementQueueByTwoStacks.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/fall_2019/jiuzhang_algorithm/chap8_stack_queue_hash_heap/Lint460_hard_LFU.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/fall_2019/jiuzhang_algorithm/chap8_stack_queue_hash_heap/Lint486_MergeKSortedArrays.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/fall_2019/jiuzhang_algorithm/chap8_stack_queue_hash_heap/Lint495_easy_implementStack.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/fall_2019/jiuzhang_algorithm/chap8_stack_queue_hash_heap/Lint526_medium_loadBalancer.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/fall_2019/jiuzhang_algorithm/chap8_stack_queue_hash_heap/Lint601_Flatten2DVector.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/fall_2019/jiuzhang_algorithm/chap8_stack_queue_hash_heap/lint129_medium_rehashing.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/fall_2019/jiuzhang_algorithm/chap3_two_pointers/lint31_medium_partitionArray.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/fall_2019/jiuzhang_algorithm/chap3_two_pointers/lint382_medium_triangleCount.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/fall_2019/jiuzhang_algorithm/chap3_two_pointers/lint539_easy_moveZeroes.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/fall_2019/jiuzhang_algorithm/chap3_two_pointers/lint891_medium_validPalindrome_II.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/fall_2019/jiuzhang_algorithm/chap8_stack_queue_hash_heap/Lint471_medium_topKWords.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/fall_2019/jiuzhang_algorithm/chap8_stack_queue_hash_heap/Lint575_medium_decodeString.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/fall_2019/jiuzhang_algorithm/chap8_stack_queue_hash_heap/leetcode341_medium_flattenNestedList.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/fall_2019/jiuzhang_algorithm/chap8_stack_queue_hash_heap/lint541_medium_zigzagIterator2.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/fall_2019/jiuzhang_algorithm/chap8_stack_queue_hash_heap/lintcode_540_medium_zigzagIterator.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/fall_2019/microsoft/leetcode42_hard_trappingRainWater.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -22,60 +24,35 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="TopKLargestNumbers.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/fall_2019/jiuzhang_algorithm/chap8_stack_queue_hash_heap/TopKLargestNumbers.java">
+      <file leaf-file-name="leetcode341_medium_flattenNestedList.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/fall_2019/jiuzhang_algorithm/chap8_stack_queue_hash_heap/leetcode341_medium_flattenNestedList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="1" lean-forward="false" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Lint40_ImplementQueueByTwoStacks.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/fall_2019/jiuzhang_algorithm/chap8_stack_queue_hash_heap/Lint40_ImplementQueueByTwoStacks.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="660">
-              <caret line="46" column="5" lean-forward="false" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
-              <folding>
-                <element signature="e#444#445#0" expanded="true" />
-                <element signature="e#488#489#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Lint495_easy_implementStack.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/fall_2019/jiuzhang_algorithm/chap8_stack_queue_hash_heap/Lint495_easy_implementStack.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="31" column="26" lean-forward="false" selection-start-line="31" selection-start-column="26" selection-end-line="31" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Lint601_Flatten2DVector.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/fall_2019/jiuzhang_algorithm/chap8_stack_queue_hash_heap/Lint601_Flatten2DVector.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="555">
-              <caret line="42" column="9" lean-forward="false" selection-start-line="42" selection-start-column="9" selection-end-line="42" selection-end-column="9" />
+            <state relative-caret-position="612">
+              <caret line="45" column="25" lean-forward="false" selection-start-line="45" selection-start-column="25" selection-end-line="45" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#493#494#0" expanded="true" />
-                <element signature="e#538#539#0" expanded="true" />
-                <element signature="e#1078#1079#0" expanded="true" />
-                <element signature="e#1116#1117#0" expanded="true" />
+                <element signature="e#725#726#0" expanded="true" />
+                <element signature="e#780#781#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Lint526_medium_loadBalancer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/fall_2019/jiuzhang_algorithm/chap8_stack_queue_hash_heap/Lint526_medium_loadBalancer.java">
+      <file leaf-file-name="LeetCode341_medium_FlattenNestedListIterator.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/facebook/LeetCode341_medium_FlattenNestedListIterator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="9" column="4" lean-forward="false" selection-start-line="9" selection-start-column="4" selection-end-line="54" selection-end-column="5" />
+            <state relative-caret-position="45">
+              <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Lint575_medium_decodeString.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/fall_2019/jiuzhang_algorithm/chap8_stack_queue_hash_heap/Lint575_medium_decodeString.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="642">
+              <caret line="64" column="0" lean-forward="true" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -83,55 +60,77 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Lint486_MergeKSortedArrays.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/fall_2019/jiuzhang_algorithm/chap8_stack_queue_hash_heap/Lint486_MergeKSortedArrays.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="42" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Lint130_heapify.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/fall_2019/jiuzhang_algorithm/chap8_stack_queue_hash_heap/Lint130_heapify.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="29" column="5" lean-forward="false" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="lint129_medium_rehashing.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/fall_2019/jiuzhang_algorithm/chap8_stack_queue_hash_heap/lint129_medium_rehashing.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="720">
-              <caret line="48" column="5" lean-forward="false" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Lint460_hard_LFU.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/fall_2019/jiuzhang_algorithm/chap8_stack_queue_hash_heap/Lint460_hard_LFU.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="283">
-              <caret line="22" column="11" lean-forward="true" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Iterator.java" pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_152.jdk/Contents/Home/src.zip!/java/util/Iterator.java">
+      <file leaf-file-name="lintcode_540_medium_zigzagIterator.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/fall_2019/jiuzhang_algorithm/chap8_stack_queue_hash_heap/lintcode_540_medium_zigzagIterator.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="450">
-              <caret line="53" column="17" lean-forward="false" selection-start-line="53" selection-start-column="17" selection-end-line="53" selection-end-column="17" />
+              <caret line="30" column="13" lean-forward="true" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="lint541_medium_zigzagIterator2.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/fall_2019/jiuzhang_algorithm/chap8_stack_queue_hash_heap/lint541_medium_zigzagIterator2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="25" column="22" lean-forward="true" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#340#341#0" expanded="true" />
+                <element signature="e#388#389#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="lint539_easy_moveZeroes.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/fall_2019/jiuzhang_algorithm/chap3_two_pointers/lint539_easy_moveZeroes.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="lint891_medium_validPalindrome_II.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/fall_2019/jiuzhang_algorithm/chap3_two_pointers/lint891_medium_validPalindrome_II.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="19" column="15" lean-forward="false" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="88" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="lint382_medium_triangleCount.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/fall_2019/jiuzhang_algorithm/chap3_two_pointers/lint382_medium_triangleCount.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="26" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="lint31_medium_partitionArray.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/fall_2019/jiuzhang_algorithm/chap3_two_pointers/lint31_medium_partitionArray.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="231">
+              <caret line="18" column="77" lean-forward="false" selection-start-line="18" selection-start-column="77" selection-end-line="18" selection-end-column="77" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="leetcode42_hard_trappingRainWater.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/fall_2019/microsoft/leetcode42_hard_trappingRainWater.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="10" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -159,16 +158,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/facebook/LeetCode38_easy_CountAndSay.java" />
-        <option value="$PROJECT_DIR$/src/facebook/LeetCode341_medium_FlattenNestedListIterator.java" />
-        <option value="$PROJECT_DIR$/src/facebook/LeetCode67_easy_AddBinary.java" />
-        <option value="$PROJECT_DIR$/src/facebook/LeetCode78_medium_Subsets.java" />
-        <option value="$PROJECT_DIR$/src/facebook/LeetCode461_easy_HammingDistance.java" />
-        <option value="$PROJECT_DIR$/src/facebook/LeetCode69_easy_SqrtX.java" />
-        <option value="$PROJECT_DIR$/src/facebook/LeetCode268_easy_MissingNumber.java" />
-        <option value="$PROJECT_DIR$/src/facebook/LeetCode168_easy_ExcelSheetColumnTitle.java" />
-        <option value="$PROJECT_DIR$/src/facebook/LeetCode43_medium_MultiplyStrings.java" />
-        <option value="$PROJECT_DIR$/src/facebook/LeetCode301_hard_RemoveInvalidParentheses.java" />
         <option value="$PROJECT_DIR$/src/facebook_more/LeetCode674_easy_LongestContinuousIncreasingSubsequence.java" />
         <option value="$PROJECT_DIR$/src/facebook_more/LeetCode253_medium_MeetingRooms_II.java" />
         <option value="$PROJECT_DIR$/src/facebook_more/LeetCode680_easy_ValidPalindrome_II.java" />
@@ -210,6 +199,16 @@
         <option value="$PROJECT_DIR$/src/fall_2019/jiuzhang_algorithm/chap8_stack_queue_hash_heap/Lint130_heapify.java" />
         <option value="$PROJECT_DIR$/src/fall_2019/jiuzhang_algorithm/chap8_stack_queue_hash_heap/lint129_medium_rehashing.java" />
         <option value="$PROJECT_DIR$/src/fall_2019/jiuzhang_algorithm/chap8_stack_queue_hash_heap/Lint460_hard_LFU.java" />
+        <option value="$PROJECT_DIR$/src/fall_2019/jiuzhang_algorithm/chap8_stack_queue_hash_heap/Lint471_medium_topKWords.java" />
+        <option value="$PROJECT_DIR$/src/fall_2019/jiuzhang_algorithm/chap8_stack_queue_hash_heap/leetcode341_medium_flattenNestedList.java" />
+        <option value="$PROJECT_DIR$/src/fall_2019/jiuzhang_algorithm/chap8_stack_queue_hash_heap/Lint575_medium_decodeString.java" />
+        <option value="$PROJECT_DIR$/src/fall_2019/jiuzhang_algorithm/chap8_stack_queue_hash_heap/lintcode_540_medium_zigzagIterator.java" />
+        <option value="$PROJECT_DIR$/src/fall_2019/jiuzhang_algorithm/chap8_stack_queue_hash_heap/lint541_medium_zigzagIterator2.java" />
+        <option value="$PROJECT_DIR$/src/fall_2019/jiuzhang_algorithm/chap3_two_pointers/lint539_easy_moveZeroes.java" />
+        <option value="$PROJECT_DIR$/src/fall_2019/jiuzhang_algorithm/chap3_two_pointers/lint891_medium_validPalindrome_II.java" />
+        <option value="$PROJECT_DIR$/src/fall_2019/jiuzhang_algorithm/chap3_two_pointers/lint382_medium_triangleCount.java" />
+        <option value="$PROJECT_DIR$/src/fall_2019/jiuzhang_algorithm/chap3_two_pointers/lint31_medium_partitionArray.java" />
+        <option value="$PROJECT_DIR$/src/fall_2019/microsoft/leetcode42_hard_trappingRainWater.java" />
       </list>
     </option>
   </component>
@@ -265,21 +264,6 @@
             </path>
             <path>
               <item name="coding-practice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="coding-practice" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="fall_2019" type="462c0819:PsiDirectoryNode" />
-              <item name="jiuzhang_algorithm" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="coding-practice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="coding-practice" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="fall_2019" type="462c0819:PsiDirectoryNode" />
-              <item name="jiuzhang_algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="chap8_stack_queue_hash_heap" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="coding-practice" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
@@ -321,7 +305,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.fall_2019.jiuzhang_algorithm in coding-practice">
+  <component name="RunManager" selected="Application.lint31_medium_partitionArray">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -367,25 +351,6 @@
       <module name="coding-practice" />
       <envs />
     </configuration>
-    <configuration name="MinSpanningTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="algorithm_graph_I.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="algorithm_graph_I.MinSpanningTree" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="coding-practice" />
-      <envs />
-    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" />
@@ -398,6 +363,25 @@
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="" />
+      <envs />
+    </configuration>
+    <configuration name="lint31_medium_partitionArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="fall_2019.jiuzhang_algorithm.chap3_two_pointers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="fall_2019.jiuzhang_algorithm.chap3_two_pointers.lint31_medium_partitionArray" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="coding-practice" />
       <envs />
     </configuration>
     <configuration name="practice_basic_backtracking" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -505,19 +489,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.MinSpanningTree" />
-      <item index="1" class="java.lang.String" itemvalue="Application.MergeTwoSortedList" />
-      <item index="2" class="java.lang.String" itemvalue="Application.practice_basic_backtracking" />
-      <item index="3" class="java.lang.String" itemvalue="Application.Leetcode42_TrappingRainWater" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.fall_2019.jiuzhang_algorithm in coding-practice" />
+      <item index="0" class="java.lang.String" itemvalue="Application.MergeTwoSortedList" />
+      <item index="1" class="java.lang.String" itemvalue="Application.practice_basic_backtracking" />
+      <item index="2" class="java.lang.String" itemvalue="Application.Leetcode42_TrappingRainWater" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.fall_2019.jiuzhang_algorithm in coding-practice" />
+      <item index="4" class="java.lang.String" itemvalue="Application.lint31_medium_partitionArray" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.fall_2019.jiuzhang_algorithm in coding-practice" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Leetcode42_TrappingRainWater" />
-        <item index="2" class="java.lang.String" itemvalue="Application.practice_basic_backtracking" />
-        <item index="3" class="java.lang.String" itemvalue="Application.MergeTwoSortedList" />
-        <item index="4" class="java.lang.String" itemvalue="Application.MinSpanningTree" />
+        <item index="0" class="java.lang.String" itemvalue="Application.lint31_medium_partitionArray" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.fall_2019.jiuzhang_algorithm in coding-practice" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Leetcode42_TrappingRainWater" />
+        <item index="3" class="java.lang.String" itemvalue="Application.practice_basic_backtracking" />
+        <item index="4" class="java.lang.String" itemvalue="Application.MergeTwoSortedList" />
       </list>
     </recent_temporary>
   </component>
@@ -553,7 +537,7 @@
       <workItem from="1547529267421" duration="3023000" />
       <workItem from="1547839743810" duration="295000" />
       <workItem from="1567044664399" duration="13739000" />
-      <workItem from="1567179283422" duration="243000" />
+      <workItem from="1567179283422" duration="11267000" />
     </task>
     <servers />
   </component>
@@ -572,7 +556,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="136782000" />
+    <option name="totallyTimeSpent" value="147806000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="54" y="23" width="1386" height="877" extended-state="6" />
@@ -580,12 +564,13 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32736573" sideWeight="0.47111112" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286445" sideWeight="0.46770602" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40409207" sideWeight="0.532294" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19948849" sideWeight="0.532294" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32992327" sideWeight="0.49109793" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -602,7 +587,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32736573" sideWeight="0.47111112" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -658,96 +642,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/facebook_more/LeetCode278_easy_FirstBadVersion.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="25" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/facebook_more/LeetCode227_medium_BasicCalculator_II.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="930">
-          <caret line="62" column="49" lean-forward="false" selection-start-line="62" selection-start-column="49" selection-end-line="62" selection-end-column="49" />
-          <folding>
-            <element signature="e#1470#1471#0" expanded="false" />
-            <element signature="e#1536#1537#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/facebook_more/LeetCode247_medium_StrobogrammaticNumber.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="20" lean-forward="false" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/facebook_more/LeetCode277_medium_FindTheCelebrity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="16" column="53" lean-forward="false" selection-start-line="16" selection-start-column="53" selection-end-line="16" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/facebook/LeetCode128_hard_LongestConsecutiveSequence.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="27" lean-forward="false" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/facebook_more/LeetCode523_medium_ContinueSubarraySum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="14" column="31" lean-forward="false" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_152.jdk/Contents/Home/src.zip!/java/io/FileReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="56" column="11" lean-forward="false" selection-start-line="56" selection-start-column="11" selection-end-line="56" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/intuit_oa/data.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="12" lean-forward="false" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/expedia_OA/oa1.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/expedia_OA/oa3.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/expedia_OA/oa4.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/intuit_oa/LeetCode224_hard_BasicCalculator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="57" lean-forward="false" selection-start-line="16" selection-start-column="57" selection-end-line="16" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/intuit_oa/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/intuit_oa/LeetCode227_medium_BasicCalculator_II.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="143">
@@ -887,6 +781,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
           <caret line="32" column="26" lean-forward="false" selection-start-line="32" selection-start-column="26" selection-end-line="32" selection-end-column="26" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -916,6 +811,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="676">
           <caret line="642" column="25" lean-forward="false" selection-start-line="642" selection-start-column="25" selection-end-line="642" selection-end-column="25" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -939,8 +835,8 @@
         <state relative-caret-position="660">
           <caret line="46" column="5" lean-forward="false" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
           <folding>
-            <element signature="e#444#445#0" expanded="true" />
-            <element signature="e#488#489#0" expanded="true" />
+            <element signature="e#444#445#0" expanded="false" />
+            <element signature="e#488#489#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -954,7 +850,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/fall_2019/jiuzhang_algorithm/chap8_stack_queue_hash_heap/Lint495_easy_implementStack.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
+        <state relative-caret-position="0">
           <caret line="31" column="26" lean-forward="false" selection-start-line="31" selection-start-column="26" selection-end-line="31" selection-end-column="26" />
           <folding />
         </state>
@@ -973,21 +869,21 @@
         <state relative-caret-position="555">
           <caret line="42" column="9" lean-forward="false" selection-start-line="42" selection-start-column="9" selection-end-line="42" selection-end-column="9" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#493#494#0" expanded="true" />
-            <element signature="e#538#539#0" expanded="true" />
-            <element signature="e#1078#1079#0" expanded="true" />
-            <element signature="e#1116#1117#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#493#494#0" expanded="false" />
+            <element signature="e#538#539#0" expanded="false" />
+            <element signature="e#1078#1079#0" expanded="false" />
+            <element signature="e#1116#1117#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/fall_2019/jiuzhang_algorithm/chap8_stack_queue_hash_heap/Lint526_medium_loadBalancer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
+        <state relative-caret-position="0">
           <caret line="9" column="4" lean-forward="false" selection-start-line="9" selection-start-column="4" selection-end-line="54" selection-end-column="5" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -997,7 +893,7 @@
         <state relative-caret-position="90">
           <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="42" selection-end-column="5" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1020,11 +916,132 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/fall_2019/jiuzhang_algorithm/chap8_stack_queue_hash_heap/Lint460_hard_LFU.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="22" column="11" lean-forward="true" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
+        <state relative-caret-position="175">
+          <caret line="36" column="13" lean-forward="true" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_152.jdk/Contents/Home/src.zip!/java/util/TreeMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="146" column="11" lean-forward="false" selection-start-line="146" selection-start-column="11" selection-end-line="146" selection-end-column="11" />
+          <folding>
+            <element signature="e#5767#5768#0" expanded="false" />
+            <element signature="e#5800#5801#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fall_2019/jiuzhang_algorithm/chap8_stack_queue_hash_heap/Lint471_medium_topKWords.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fall_2019/jiuzhang_algorithm/chap8_stack_queue_hash_heap/leetcode341_medium_flattenNestedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="45" column="25" lean-forward="false" selection-start-line="45" selection-start-column="25" selection-end-line="45" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#725#726#0" expanded="true" />
+            <element signature="e#780#781#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/facebook/LeetCode341_medium_FlattenNestedListIterator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_152.jdk/Contents/Home/src.zip!/java/lang/Character.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="5944" column="26" lean-forward="false" selection-start-line="5944" selection-start-column="26" selection-end-line="5944" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fall_2019/jiuzhang_algorithm/chap8_stack_queue_hash_heap/Lint575_medium_decodeString.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="642">
+          <caret line="64" column="0" lean-forward="true" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fall_2019/jiuzhang_algorithm/chap8_stack_queue_hash_heap/lintcode_540_medium_zigzagIterator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="13" lean-forward="true" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fall_2019/jiuzhang_algorithm/chap8_stack_queue_hash_heap/lint541_medium_zigzagIterator2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="22" lean-forward="true" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#340#341#0" expanded="true" />
+            <element signature="e#388#389#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fall_2019/jiuzhang_algorithm/chap3_two_pointers/lint539_easy_moveZeroes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fall_2019/jiuzhang_algorithm/chap3_two_pointers/lint891_medium_validPalindrome_II.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="15" lean-forward="false" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="88" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fall_2019/jiuzhang_algorithm/chap3_two_pointers/lint382_medium_triangleCount.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="26" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fall_2019/jiuzhang_algorithm/chap3_two_pointers/lint31_medium_partitionArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="18" column="77" lean-forward="false" selection-start-line="18" selection-start-column="77" selection-end-line="18" selection-end-column="77" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fall_2019/microsoft/leetcode42_hard_trappingRainWater.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="10" selection-end-column="9" />
+          <folding />
         </state>
       </provider>
     </entry>
