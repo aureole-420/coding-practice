@@ -21,7 +21,7 @@ public class leetcode76_hard_minWindowSubstring {
 
         int minLen = Integer.MAX_VALUE;
         int head = 0;
-        while (end < s.length()) {
+        while (end < s.length()) { // 拓展window size
             char c = s.charAt(end);
             if (char2Count.containsKey(c)) {
                 char2Count.put(c, char2Count.get(c) - 1);
@@ -31,7 +31,8 @@ public class leetcode76_hard_minWindowSubstring {
             }
             end++;
 
-            while (numCharToInclude == 0) {
+            while (numCharToInclude == 0) { // 当所有字母全都包含在内时，不再拓展window
+                // 转而缩小window size。
                 if (end-start < minLen) {
                     minLen = end-start;
                     head = start;
@@ -41,7 +42,8 @@ public class leetcode76_hard_minWindowSubstring {
                 if (char2Count.containsKey(c_)) {
                     char2Count.put(c_, char2Count.get(c_) + 1);
 
-                    if (char2Count.get(c_) > 0) {
+                    if (char2Count.get(c_) > 0) { // 当条件不满足，i.e.，并非所有字母包含在内时，
+                        // 停止缩小window size，再次增大window
                         numCharToInclude++;
                     }
                 }

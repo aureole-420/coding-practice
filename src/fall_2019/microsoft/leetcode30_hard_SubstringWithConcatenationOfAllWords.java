@@ -7,52 +7,52 @@ import java.util.Map;
 
 public class leetcode30_hard_SubstringWithConcatenationOfAllWords {
 
-    public List<Integer> findSubstring(String S, String[] L) {
-        List<Integer> res = new LinkedList<>();
-        if (L.length == 0 || S.length() < L.length * L[0].length())   return res;
-        int N = S.length();
-        int M = L.length; // *** length
-        int wl = L[0].length();
-        Map<String, Integer> map = new HashMap<>(), curMap = new HashMap<>();
-        for (String s : L) {
-            if (map.containsKey(s))   map.put(s, map.get(s) + 1);
-            else                      map.put(s, 1);
+    public List<Integer> findSubstring(String s, String[] words) {
+        List<Integer> result = new LinkedList<>();
+        if (s == null || words == null || words.length == 0 || words.length * words[0].length() > s.length()) {
+            return result;
         }
-        String str = null, tmp = null;
+
+        int wl = words[0].length();
+        int N = words.length; // in total N words
+        HashMap<String, Integer> word2Count = new HashMap<>(); // read-only
+        for (String word : words) {
+            word2Count.put(word, word2Count.getOrDefault(word, 0) + 1);
+        }
+
+        HashMap<String, Integer> localWord2Count = new HashMap<>();
         for (int i = 0; i < wl; i++) {
-            int count = 0;  // remark: reset count
-            int start = i;
-            for (int r = i; r + wl <= N; r += wl) {
-                str = S.substring(r, r + wl);
-                if (map.containsKey(str)) {
-                    if (curMap.containsKey(str))   curMap.put(str, curMap.get(str) + 1);
-                    else                           curMap.put(str, 1);
-
-                    if (curMap.get(str) <= map.get(str))    count++;
-                    while (curMap.get(str) > map.get(str)) {
-                        tmp = S.substring(start, start + wl);
-                        curMap.put(tmp, curMap.get(tmp) - 1);
-                        start += wl;
-
-                        //the same as https://leetcode.com/problems/longest-substring-without-repeating-characters/
-                        if (curMap.get(tmp) < map.get(tmp)) count--;
-
+            int start = i, end = i;
+            int wordToInclude = word2Count.size();
+            while (end + wl <= s.length()) { // 拓展window end
+                String curWord = s.substring(end, end+wl);
+                if (word2Count.containsKey(curWord)) {
+                    localWord2Count.put(curWord, localWord2Count.getOrDefault(curWord, word2Count.get(curWord)) - 1);
+                    if (localWord2Count.get(curWord) == 0) {
+                        wordToInclude--;
                     }
-                    if (count == M) {
-                        res.add(start);
-                        tmp = S.substring(start, start + wl);
-                        curMap.put(tmp, curMap.get(tmp) - 1);
-                        start += wl;
-                        count--;
+                }
+                end += wl;
+
+                while (wordToInclude == 0) { // 满足条件了，
+                    if (end - start == wl * N) {
+                        result.add(start);
                     }
-                }else {
-                    curMap.clear();
-                    count = 0;
-                    start = r + wl;//not contain, so move the start
+                    String headWord = s.substring(start, start+wl); // 开始缩减window start
+                    if (word2Count.containsKey(headWord)) {
+                        localWord2Count.put(headWord, localWord2Count.get(headWord) + 1);
+                        if (localWord2Count.get(headWord) > 0) {
+                            wordToInclude++;
+                        }
+                    }
+
+                    start += wl;
                 }
             }
-            curMap.clear();
+
+            localWord2Count.clear();
         }
-        return res;
+
+        return result;
     }
 }

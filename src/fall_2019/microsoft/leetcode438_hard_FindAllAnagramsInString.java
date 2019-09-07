@@ -20,7 +20,7 @@ public class leetcode438_hard_FindAllAnagramsInString {
         int start = 0, end = 0;
         int numDistinctCharToInclude = char2Count.size();
 
-        while (end < s.length()) {
+        while (end < s.length()) { // 不断拓展window size
             char c = s.charAt(end);
             if (char2Count.containsKey(c)) {
                 char2Count.put(c, char2Count.get(c) - 1);
