@@ -2,18 +2,34 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cf80e199-f6ad-4e68-8c09-5da29c406d23" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fall_2019/microsoft/Leetcode48_medium_rotateImage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fall_2019/microsoft/leetcode236_medium_lowestCommonAncestorOfaBinaryTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fall_2019/microsoft/leetcode240_search2DMatrixII.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fall_2019/microsoft/leetcode269_hard_aliennDictionary.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fall_2019/microsoft/leetcode300_medium_longestIncreasingSequence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fall_2019/microsoft/leetcode354_hard_RussianDollEnvolopes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fall_2019/microsoft/leetcode54_medium_spiralMatrix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fall_2019/microsoft/leetcode768_hard_maxChunkToMakeSorted.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fall_2019/microsoft/leetcode7_easy_reverseInteger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fall_2019/microsoft/leetcode_2_medium_addTwoNumbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fall_2019/twosigma/Substrings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fall_2019/airbnb/oa1_candy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fall_2019/microsoft/Leetcode143_medium_reorderList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fall_2019/microsoft/Leetcode71_medium_simplifyPath.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fall_2019/microsoft/Leetcode79_medium_wordSearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fall_2019/microsoft/leetcode10_hard_regularExpressionMatching.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fall_2019/microsoft/leetcode114_medium_flatternBinaryTreeToLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fall_2019/microsoft/leetcode123_hard_bestTimetoBuyAndSellStock_III.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fall_2019/microsoft/leetcode17_letterCombination.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fall_2019/microsoft/leetcode188_hard_buysellstock_iv.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fall_2019/microsoft/leetcode206_easy_reverseLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fall_2019/microsoft/leetcode273_hard_integerToEnglishWords.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fall_2019/microsoft/leetcode285_medium_InorderSuccessorOfBST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fall_2019/microsoft/leetcode309_medium_buySellStock_withCoolDown.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fall_2019/microsoft/leetcode33_medium_searchInRotatedSortedArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fall_2019/microsoft/leetcode347_medium_topKFrequentElements.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fall_2019/microsoft/leetcode380_medium_insertDeleteGetRandom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fall_2019/microsoft/leetcode381_hard_insertDeleteGetRandom_Duplicate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fall_2019/microsoft/leetcode41_hard_firstMissingNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fall_2019/microsoft/leetcode43_medium_multiplyStrings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fall_2019/microsoft/leetcode44_hard_wildCardMatching.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fall_2019/microsoft/leetcode510_medium_inorderSuccesorInBST_III.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fall_2019/microsoft/leetcode714_hard_buysellstock_withTransactionFee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fall_2019/microsoft/leetcode73_medium_setMatrixZeroes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fall_2019/microsoft/leetcode81_medium_searchRotatedSortedArray_II.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fall_2019/microsoft/leetcode94_medium_restoreIPaddress.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fall_2019/microsoft/leetcode97_interleavingStrings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fall_2019/palantir/Result.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fall_2019/tripAdvisor/spiralMatrix.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -93,23 +109,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.leetcode300_medium_longestIncreasingSequence">
+  <component name="RunManager" selected="Application.oa_divide">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Substrings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fall_2019.twosigma.Substrings" />
-      <module name="coding-practice" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="fall_2019.twosigma.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -120,8 +122,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="leetcode269_hard_aliennDictionary" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fall_2019.microsoft.leetcode269_hard_aliennDictionary" />
+    <configuration name="leetcode41_hard_firstMissingNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fall_2019.microsoft.leetcode41_hard_firstMissingNumber" />
       <module name="coding-practice" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -134,8 +136,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="leetcode300_medium_longestIncreasingSequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fall_2019.microsoft.leetcode300_medium_longestIncreasingSequence" />
+    <configuration name="leetcode714_hard_buysellstock_withTransactionFee" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fall_2019.microsoft.leetcode714_hard_buysellstock_withTransactionFee" />
       <module name="coding-practice" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -148,8 +150,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="leetcode54_medium_spiralMatrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fall_2019.microsoft.leetcode54_medium_spiralMatrix" />
+    <configuration name="leetcode97_interleavingStrings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fall_2019.microsoft.leetcode97_interleavingStrings" />
       <module name="coding-practice" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -162,13 +164,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="leetcode7_easy_reverseInteger" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fall_2019.microsoft.leetcode7_easy_reverseInteger" />
+    <configuration name="oa1_candy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fall_2019.airbnb.oa1_candy" />
       <module name="coding-practice" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="fall_2019.microsoft.*" />
+          <option name="PATTERN" value="fall_2019.airbnb.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="oa_divide" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fall_2019.airbnb.oa_divide" />
+      <module name="coding-practice" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fall_2019.airbnb.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -202,19 +218,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.leetcode7_easy_reverseInteger" />
-      <item itemvalue="Application.leetcode269_hard_aliennDictionary" />
-      <item itemvalue="Application.leetcode54_medium_spiralMatrix" />
-      <item itemvalue="Application.Substrings" />
-      <item itemvalue="Application.leetcode300_medium_longestIncreasingSequence" />
+      <item itemvalue="Application.leetcode714_hard_buysellstock_withTransactionFee" />
+      <item itemvalue="Application.leetcode97_interleavingStrings" />
+      <item itemvalue="Application.leetcode41_hard_firstMissingNumber" />
+      <item itemvalue="Application.oa1_candy" />
+      <item itemvalue="Application.oa_divide" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.leetcode300_medium_longestIncreasingSequence" />
-        <item itemvalue="Application.leetcode54_medium_spiralMatrix" />
-        <item itemvalue="Application.Substrings" />
-        <item itemvalue="Application.leetcode269_hard_aliennDictionary" />
-        <item itemvalue="Application.leetcode7_easy_reverseInteger" />
+        <item itemvalue="Application.oa_divide" />
+        <item itemvalue="Application.oa1_candy" />
+        <item itemvalue="Application.leetcode41_hard_firstMissingNumber" />
+        <item itemvalue="Application.leetcode97_interleavingStrings" />
+        <item itemvalue="Application.leetcode714_hard_buysellstock_withTransactionFee" />
       </list>
     </recent_temporary>
   </component>
@@ -250,7 +266,9 @@
       <workItem from="1567179283422" duration="63327000" />
       <workItem from="1568325765762" duration="52000" />
       <workItem from="1568325932592" duration="201000" />
-      <workItem from="1568335195215" duration="8239000" />
+      <workItem from="1568335195215" duration="10583000" />
+      <workItem from="1568493825893" duration="49798000" />
+      <workItem from="1569083155000" duration="1611000" />
     </task>
     <servers />
   </component>
@@ -276,7 +294,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
